@@ -1,0 +1,2 @@
+# Dockerfile Build Failure
+This repository demonstrates a common error in Dockerfiles: failure to build due to a missing or improperly configured requirements file or permission errors.  The `Dockerfile` attempts to install dependencies via `pip`, but may fail if the `requirements.txt` file is missing or inaccessible, or if there are permission issues during installation.  The solution file demonstrates how to fix this issue.
